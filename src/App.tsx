@@ -26,7 +26,7 @@ function App() {
           <a href="https://opensea.io/collection/deadiestombwtf" className='OpenseaButton' style={{ width: '4vw', height: '4vw', margin: '.25vw' }} target="_blank"> </a>
         </div>
         <MintArea />
-        <img src={BrownConnect} style={{ width: '100vw', marginBottom: '-5px' }}></img>
+        <img src={BrownConnect} style={{ width: '100vw', maxWidth: '100%', marginBottom: '-5px' }}></img>
       </div>
 
       <div className="SectionTwo">
@@ -129,7 +129,7 @@ function App() {
       </div>
 
 
-    </DAppProvider>
+    </DAppProvider >
   );
 }
 
