@@ -83,12 +83,12 @@ export const MintArea = () => {
         const mintAmount = String(lotCount);
         if (minted == 0) {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 77000000000000000 - 77000000000000000).toString(),
+                value: (parseFloat(mintAmount) * 7700000000000000 - 77000000000000000).toString(),
             });
         }
         else {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 77000000000000000).toString(),
+                value: (parseFloat(mintAmount) * 7700000000000000).toString(),
             });
         }
     }
