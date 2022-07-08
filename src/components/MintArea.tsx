@@ -8,7 +8,7 @@ import DemoNFT from '../images/DemoAnim.gif';
 import { debug } from "console";
 
 const contractInterface = new ethers.utils.Interface(ContractABI);
-const contractAddress = '0x51AF0dE2F4E2aA6898c52c0036B07d2156272134';
+const contractAddress = '0x3554f7E80DAD34fD22Eb388a7Cae33BcA5a5c833';
 
 const contractContract = new Contract(contractAddress, contractInterface);
 
@@ -33,7 +33,7 @@ function GetSupply() {
                 args: [], // Method arguments - address to be checked for balance
             }
         ) ?? {};
-    return value ? value.toString() + '/3088' : '0/3088';
+    return value ? value.toString() + '/7777' : '0/7777';
 }
 
 function GetMaxMintAmount() {
@@ -83,12 +83,12 @@ export const MintArea = () => {
         const mintAmount = String(lotCount);
         if (minted == 0) {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 5000000000000000 - 5000000000000000).toString(),
+                value: (parseFloat(mintAmount) * 77000000000000000 - 77000000000000000).toString(),
             });
         }
         else {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 5000000000000000).toString(),
+                value: (parseFloat(mintAmount) * 77000000000000000).toString(),
             });
         }
     }

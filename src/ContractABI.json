@@ -476,37 +476,6 @@
         "inputs": [
             {
                 "internalType": "address",
-                "name": "_to",
-                "type": "address"
-            },
-            {
-                "internalType": "uint256",
-                "name": "_amount",
-                "type": "uint256"
-            }
-        ],
-        "name": "giveAway",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "address[]",
-                "name": "_to",
-                "type": "address[]"
-            }
-        ],
-        "name": "givewayForAll",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "address",
                 "name": "owner",
                 "type": "address"
             },
@@ -522,19 +491,6 @@
                 "internalType": "bool",
                 "name": "",
                 "type": "bool"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "maxFreeSupply",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
             }
         ],
         "stateMutability": "view",
@@ -626,7 +582,7 @@
     },
     {
         "inputs": [],
-        "name": "owner1",
+        "name": "owner2Address",
         "outputs": [
             {
                 "internalType": "address",
@@ -639,20 +595,7 @@
     },
     {
         "inputs": [],
-        "name": "owner2",
-        "outputs": [
-            {
-                "internalType": "address",
-                "name": "",
-                "type": "address"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "owner3",
+        "name": "ownerAddress",
         "outputs": [
             {
                 "internalType": "address",
@@ -700,19 +643,6 @@
         "name": "renounceOwnership",
         "outputs": [],
         "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "reserved",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
         "type": "function"
     },
     {
@@ -839,6 +769,19 @@
     {
         "inputs": [
             {
+                "internalType": "string",
+                "name": "_set",
+                "type": "string"
+            }
+        ],
+        "name": "setDefaultURI",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "internalType": "address",
                 "name": "_set1",
                 "type": "address"
@@ -854,33 +797,7 @@
                 "type": "address"
             }
         ],
-        "name": "setDeadiesTombOwner",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "string",
-                "name": "_set",
-                "type": "string"
-            }
-        ],
-        "name": "setDefaultURI",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "_set",
-                "type": "uint256"
-            }
-        ],
-        "name": "setMaxFreeSupply",
+        "name": "setLittleManNFTOwner",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
@@ -935,6 +852,26 @@
         "name": "setRevealedProgress",
         "outputs": [],
         "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "setStartMint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "startMint",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
         "type": "function"
     },
     {
@@ -1103,6 +1040,19 @@
         "name": "transferOwnership",
         "outputs": [],
         "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "vaultAddress",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
         "type": "function"
     },
     {
