@@ -108,36 +108,36 @@ export const MintArea = () => {
             padding: '1vw', verticalAlign: 'middle', textAlign: 'center'
         }}>
             <div className="FlexBoxes">
-                <div style={{ margin: '1vw', height: '30vw' }}>
+                <div style={{ margin: '1vw', height: '40vw' }}>
                     <img src={DemoNFT} style={{ height: '35vw', margin: '-3vw 0vw -1vw 0vw' }}></img>
                     <div className="TitleHeader" style={{ margin: '1vw' }}> {supply}</div>
                 </div>
-                <div style={{ width: '30vw', height: '35vw' }}>
-                    <div style={{ backgroundColor: 'rgba(38, 37, 37, .9)', boxShadow: "0px 0px 1vw rgba(24,  22 ,33,.5)", marginTop: '8vw', marginBottom: '1vw' }}>
-                        <div className="SmallerText" style={{
-                            fontSize: '2vw', fontFamily: 'Caveat, cursive'
+                <div style={{ width: '40vw', height: '40vw' }}>
+                    <div className="BlackSection" style={{ marginTop: '7.5vw', marginBottom: '1vw' }}>
+                        <div style={{
+                            fontSize: '2vw', fontFamily: 'Caveat, cursive', padding: '4vw 2.5vw', textAlign: 'left'
                         }}>
-                            <div>-Only 5 Per Transaction, Don't be greedy.</div>
-                            <div>-Maximum 10💀 per wallet</div>
-                            <div>-0.005 for each 1💀</div>
+                            <div>-𝔒𝔫𝔩𝔶 10 𝔓𝔢𝔯 𝔗𝔯𝔞𝔫𝔰𝔞𝔠𝔱𝔦𝔬𝔫, 𝔇𝔬𝔫'𝔱 𝔟𝔢 𝔤𝔯𝔢𝔢𝔡𝔶.</div>
+                            <div>-𝔐𝔞𝔵𝔦𝔪𝔲𝔪 10 ℌ𝔬𝔪𝔦𝔢𝔰 𝔭𝔢𝔯 𝔴𝔞𝔩𝔩𝔢𝔱.</div>
+                            <div>-1 ℌ𝔬𝔪𝔦𝔢 𝔉𝔯𝔢𝔢, 𝔱𝔥𝔢 𝔯𝔢𝔰𝔱 0.0077 𝔢𝔞𝔠𝔥.</div>
                         </div>
                     </div>
                     <div className="FlexBoxes">
                         < button className="NormalButton" style={{ width: '4vw', height: '4vw', fontSize: '2vw' }} onClick={() => decrementCount()}> - </button>
-                        <div style={{ width: '22vw', height: '5vw', color: 'white', textShadow: '1px 1px 1px #000000', fontSize: '2.5vw', fontWeight: '900', whiteSpace: 'pre-wrap', overflowWrap: 'break-word', fontFamily: 'Caveat, cursive' }}>{lotCount} 💀</div>
+                        <div style={{ width: '32vw', height: '5vw', color: 'white', textShadow: '1px 1px 1px #000000', fontSize: '2.5vw', fontWeight: '900', whiteSpace: 'pre-wrap', overflowWrap: 'break-word', fontFamily: 'Caveat, cursive' }}>{lotCount} ℌ𝔬𝔪𝔦𝔢</div>
                         < button className="NormalButton" style={{ width: '4vw', height: '4vw', fontSize: '2vw' }} onClick={() => incrementCount()}> + </button>
                     </div>
                     {isConnected ?
                         (
                             <div>
                                 <div>
-                                    < button className="NormalButton" style={{ width: '30vw', height: '5vw', fontSize: '2.5vw', alignSelf: 'right' }} onClick={() => GeneralMint()} > Mint</button>
+                                    < button className="NormalButton" style={{ width: '40vw', height: '5vw', fontSize: '2.5vw', alignSelf: 'right' }} onClick={() => GeneralMint()} >𝔐𝔦𝔫𝔱</button>
                                 </div>
-                                <div style={{ color: 'white', textShadow: '1px 1px 1px #000000', fontSize: '2vw', fontWeight: '900', fontFamily: 'Caveat, cursive' }}> You have minted {String(minted)} / 10 </div>
+                                <div style={{ color: 'white', textShadow: '1px 1px 1px #000000', fontSize: '2vw', fontWeight: '900', fontFamily: 'Caveat, cursive' }}> 𝔜𝔬𝔲 𝔥𝔞𝔳𝔢 𝔪𝔦𝔫𝔱𝔢𝔡 {String(minted)} / 10 </div>
                             </div>
                         ) : (
                             <div>
-                                < button className="NormalButton" style={{ width: '25vw', height: '5vw', fontSize: '2.5vw', alignSelf: 'right' }} onClick={() => activateBrowserWallet()}> Connect </button>
+                                < button className="NormalButton" style={{ width: '40vw', height: '5vw', fontSize: '2.5vw', alignSelf: 'right' }} onClick={() => activateBrowserWallet()}> ℭ𝔬𝔫𝔫𝔢𝔠𝔱 </button>
                             </div>
                         )
                     }

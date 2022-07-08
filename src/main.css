@@ -28,7 +28,7 @@
 }
 
 .mainHeader {
-    background-color: rgba(38, 37, 37, .99);
+    background-image: url('./images/BG1.png');
     color: white;
     position: sticky;
     top: 0px;
@@ -78,6 +78,13 @@
 
 .SectionAbout {
     background-color: rgb(243, 235, 235);
+}
+
+.BlackSection {
+    color: white;
+    background-image: url('./images/Brown.png');
+    background-size: cover;
+    box-shadow: 0px 0px 10px rgba(24, 22, 33, .5);
 }
 
 .SectionOne {
