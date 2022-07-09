@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b6bf502.css",
-    "main.js": "/static/js/main.8d6d0749.js",
+    "main.css": "/static/css/main.d5ef6893.css",
+    "main.js": "/static/js/main.66176166.js",
     "static/js/787.49ab0622.chunk.js": "/static/js/787.49ab0622.chunk.js",
     "static/media/Brown.png": "/static/media/Brown.fef5fcf03f1b37fdb1ba.png",
+    "static/media/The Little Man.png": "/static/media/The Little Man.6a674051889f61fd172e.png",
     "static/media/BG1.png": "/static/media/BG1.58f8f26d42ed40b8791c.png",
+    "static/media/The Homunculus.png": "/static/media/The Homunculus.f8f02c96e5313db09e12.png",
+    "static/media/BG2.png": "/static/media/BG2.4ad55681791ccb83d2cb.png",
+    "static/media/The Father.png": "/static/media/The Father.5aa5ea1e7705370d156d.png",
     "static/media/DemoAnim.gif": "/static/media/DemoAnim.35f912f87a308981df57.gif",
     "static/media/BrownConnect.png": "/static/media/BrownConnect.274a59db405886054f2e.png",
     "static/media/openseaS.png": "/static/media/openseaS.cbef450e412082b5e910.png",
@@ -13,12 +17,12 @@
     "static/media/twitter.png": "/static/media/twitter.5eb7c027fdb31f38cacc.png",
     "static/media/BannerT.png": "/static/media/BannerT.8bff2eba3434cb1df5b5.png",
     "index.html": "/index.html",
-    "main.5b6bf502.css.map": "/static/css/main.5b6bf502.css.map",
-    "main.8d6d0749.js.map": "/static/js/main.8d6d0749.js.map",
+    "main.d5ef6893.css.map": "/static/css/main.d5ef6893.css.map",
+    "main.66176166.js.map": "/static/js/main.66176166.js.map",
     "787.49ab0622.chunk.js.map": "/static/js/787.49ab0622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b6bf502.css",
-    "static/js/main.8d6d0749.js"
+    "static/css/main.d5ef6893.css",
+    "static/js/main.66176166.js"
   ]
 }
