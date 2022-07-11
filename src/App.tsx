@@ -27,7 +27,7 @@ function App() {
       <div className="SectionOne">
         <img src={Banner} style={{ position: 'absolute', width: '15vw', maxWidth: '100%', marginBottom: '-5px' }}></img>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'right' }}>
-          <a href="" className='TwitterButton' style={{ width: '4vw', height: '4vw', margin: '.25vw' }} target="_blank"> </a>
+          <a href="https://twitter.com/LittleMan_NFT_" className='TwitterButton' style={{ width: '4vw', height: '4vw', margin: '.25vw' }} target="_blank"> </a>
           <a href="" className='OpenseaButton' style={{ width: '4vw', height: '4vw', margin: '.25vw' }} target="_blank"> </a>
         </div>
         <MintArea />
