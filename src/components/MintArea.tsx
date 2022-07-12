@@ -83,12 +83,12 @@ export const MintArea = () => {
         const mintAmount = String(lotCount);
         if (minted == 0) {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 7700000000000000 - 7700000000000000).toString()
+                value: (parseFloat(mintAmount) * 3300000000000000 - 3300000000000000).toString()
             });
         }
         else {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 7700000000000000).toString()
+                value: (parseFloat(mintAmount) * 3300000000000000).toString()
             });
         }
     }
@@ -119,7 +119,7 @@ export const MintArea = () => {
                         }}>
                             <div>-𝔒𝔫𝔩𝔶 10 𝔓𝔢𝔯 𝔗𝔯𝔞𝔫𝔰𝔞𝔠𝔱𝔦𝔬𝔫, 𝔇𝔬𝔫'𝔱 𝔟𝔢 𝔤𝔯𝔢𝔢𝔡𝔶.</div>
                             <div>-𝔐𝔞𝔵𝔦𝔪𝔲𝔪 10 ℌ𝔬𝔪𝔦𝔢𝔰 𝔭𝔢𝔯 𝔴𝔞𝔩𝔩𝔢𝔱.</div>
-                            <div>-1 ℌ𝔬𝔪𝔦𝔢 𝔉𝔯𝔢𝔢, 𝔱𝔥𝔢 𝔯𝔢𝔰𝔱 0.0077 𝔢𝔞𝔠𝔥.</div>
+                            <div>-1 ℌ𝔬𝔪𝔦𝔢 𝔉𝔯𝔢𝔢, 𝔱𝔥𝔢 𝔯𝔢𝔰𝔱 0.0033 𝔢𝔞𝔠𝔥.</div>
                         </div>
                     </div>
                     <div className="FlexBoxes">
