@@ -78,17 +78,17 @@ export const MintArea = () => {
     const maxMintAmount = GetMaxMintAmount();
     const minted = GetMinted();
 
-    const { state, send } = useContractFunction(contractContract, 'GeneralMint', { transactionName: 'Mint' })
+    const { state, send } = useContractFunction(contractContract, 'GeneralMint')
     function GeneralMint() {
         const mintAmount = String(lotCount);
         if (minted == 0) {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 7700000000000000 - 77000000000000000).toString(),
+                value: utils.parseEther((parseFloat(mintAmount) * 7700000000000000 - 7700000000000000).toString())
             });
         }
         else {
             send(mintAmount, {
-                value: (parseFloat(mintAmount) * 7700000000000000).toString(),
+                value: utils.parseEther((parseFloat(mintAmount) * 7700000000000000).toString())
             });
         }
     }
